@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo "Running yarn install..."
+      - yarn install
+  build:
+    commands:
+      - echo "Build to dist..."
+      - yarn docs:build
+  post_build:
+    commands:
+      - echo "Sync dist to s3..."
+      - aws s3 sync docs/.vuepress/dist/ "s3://developer.arable.com" --delete
+      - echo "Trigger cloudfront invalidation..."
+      - aws cloudfront create-invalidation --distribution-id "${DISTRIBUTION_ID}" --paths "/*"
