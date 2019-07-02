@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Developer',
+  title: 'Arable Developer',
   description: 'Power your project with Arable data',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
