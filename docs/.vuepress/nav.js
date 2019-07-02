@@ -10,7 +10,7 @@ module.exports = [
     items: [
       {
         text: "Contributing Guide",
-        link: "/miscellaneous/migration-guide.html"
+        link: "/contributing-guide"
       },
       {
         text: "Migrate from API V1",
