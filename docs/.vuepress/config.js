@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Arable API Documentation',
-  description: 'At A Scale That Won’t Weigh You Down',
+  title: 'Developer',
+  description: 'Power your project with Arable data',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
@@ -10,16 +10,7 @@ module.exports = {
     //   'authentication',
     //   'pagination'
     // ],
-    nav: [
-        { text: 'Guide', link: '/guide'},
-        { text: 'FAQ', link: '/faq'},
-        { text: 'API Doc', link: 'https://api-user.arable.cloud/api/v2/doc'},
-        { text: 'Something else', items: [
-            { text: 'Guide', link: '/guide'},
-            { text: 'FAQ', link: '/faq'},
-            { text: 'API Doc', link: 'https://api-user.arable.cloud/api/v2/doc'},
-        ]},
-    ],
+    nav: require('./nav.js'),
     searchMaxSuggestions: 10,
     sidebar: 'auto',  // add sitebar to all pages
     // sidebar: [

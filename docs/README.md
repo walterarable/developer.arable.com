@@ -33,6 +33,6 @@ curl -X GET \
   -H 'Authorization: Bearer <Token>' \
 ```
 
-::: warning BETA NOTE
-Arable API v2 is in beta. See our change logs for release changes.
+::: warning VERSION NOTE
+Arable API v2 is in beta. See our changelog for release changes.
 :::

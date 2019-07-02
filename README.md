@@ -1,5 +1,5 @@
 This site is built with vuepress, detailed vuepress documentation can be found here
-https://vuepress.vuejs.org/guide/getting-started.html#inside-an-existing-project
+https://v1.vuepress.vuejs.org/
 
 # Quick start
 
