@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Arable Developer',
-  description: 'API Documentation',
+  title: 'Arable API Documentation',
+  description: 'At A Scale That Won’t Weigh You Down',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
