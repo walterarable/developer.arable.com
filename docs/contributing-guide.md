@@ -14,10 +14,9 @@ You can write markdown in an [online markdown editor]('https://stackedit.io/') t
 
 ## How to submit changes
 1. Click `Edit this page` link on the page you want to contribute
-2. Make changes using markdown, then propose file change with option
-    ```
-    Create a new branch for this commit and start a pull request.
-    ```
+2. Make changes using markdown, then propose file change with option `Create a new branch for this commit and start a pull request.`
+
+    ![Create a new branch for this commit and start a pull request.](/pull-request.png)
 
 ## Submit issues
 Use our [github issue page](https://github.com/Arable/developer.arable.com/issues)
