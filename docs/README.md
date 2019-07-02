@@ -31,7 +31,6 @@ footer: Copyright © 2019 Arable Labs
 curl -X GET \
   https://api-user.arable.cloud/api/v2/data/daily \
   -H 'Authorization: Bearer <Token>' \
-  -H 'Content-Type: application/json' \
 ```
 
 ::: warning BETA NOTE
