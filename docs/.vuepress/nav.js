@@ -14,11 +14,11 @@ module.exports = [
       },
       {
         text: "Migrate from API V1",
-        link: "/miscellaneous/migration-guide.html"
+        link: "/migration-guide/"
       },
       {
         text: "Changelog",
-        link: "https://github.com/vuejs/vuepress/blob/master/CHANGELOG.md"
+        link: "https://github.com/Arable/api-user/blob/master/CHANGELOG.md"
       }
     ]
   }
