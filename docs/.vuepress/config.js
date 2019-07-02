@@ -6,31 +6,41 @@ module.exports = {
   ],
   themeConfig: {
     logo: '/logo.svg',
-    // sidebarGroupOrder: [
-    //   'authentication',
-    //   'pagination'
-    // ],
     nav: require('./nav.js'),
     searchMaxSuggestions: 10,
-    sidebar: 'auto',  // add sitebar to all pages
-    // sidebar: [
-    //   {
-    //     title: 'authentication',
-    //     collapsable: false,
-    //     children: [
-    //       '/howto1',
-    //       '/howto2',
-    //     ]
-    //   },
-    //   {
-    //     title: 'pagination',
-    //     collapsable: false,
-    //     children: [
-    //       '/howto1',
-    //       '/howto2',
-    //     ]
-    //   },
-    // ],
+    sidebar: {
+      '/guide/': [
+        {
+          title: 'Guide',   // required
+          // path: '/guide/',      // optional, which should be a absolute path.
+          collapsable: false, // optional, defaults to true
+          sidebarDepth: 1,    // optional, defaults to 1
+          children: [
+            '',
+            'authentication',
+            'pagination',
+            'permission-system'
+          ]
+        },
+      ],
+      '/faq/': [
+        {
+          title: 'FAQ',   // required
+          // path: '/faq/',      // optional, which should be a absolute path.
+          collapsable: false, // optional, defaults to true
+          sidebarDepth: 1,    // optional, defaults to 1
+          children: [
+            ''
+          ]
+        },
+      ],
+      // fallback
+      // '/': [
+      //   '',        /* / */
+      //   'contact', /* /contact.html */
+      //   'about'    /* /about.html */
+      // ]
+    },
     lastUpdated: true,
     // if your docs are in a different repo from your main project:
     docsRepo: 'Arable/developer.arable.com',

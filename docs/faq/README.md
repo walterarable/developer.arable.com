@@ -1,3 +1,6 @@
+---
+sidebar: auto
+---
 
 # FAQ
 ## How to xxxx?

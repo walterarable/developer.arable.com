@@ -1,6 +1,6 @@
 module.exports = [
-  { text: "Guide", link: "/guide" },
-  { text: "FAQ", link: "/faq" },
+  { text: "Guide", link: "/guide/" },
+  { text: "FAQ", link: "/faq/" },
   {
     text: "API Documentation",
     link: "https://api-user.arable.cloud/api/v2/doc"
