@@ -5,6 +5,7 @@ module.exports = {
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
   themeConfig: {
+    logo: '/logo.svg',
     // sidebarGroupOrder: [
     //   'authentication',
     //   'pagination'
