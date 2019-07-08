@@ -4,6 +4,10 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
+  plugins: [
+    // workaround SSR mismatch
+    'dehydrate',
+  ],
   themeConfig: {
     logo: '/logo.svg',
     nav: require('./nav.js'),
