@@ -18,12 +18,14 @@ module.exports = {
           title: 'Guide',   // required
           // path: '/guide/',      // optional, which should be a absolute path.
           collapsable: false, // optional, defaults to true
-          sidebarDepth: 1,    // optional, defaults to 1
+          sidebarDepth: 2,    // optional, defaults to 1
           children: [
             '',
             'authentication',
             'pagination',
-            'permission-system'
+            'permission-system',
+            'data',
+            'errors'
           ]
         },
       ],
@@ -64,5 +66,5 @@ module.exports = {
       //    buttonText: "Refresh"
       // }
     },
-  }  
+  }
 }
