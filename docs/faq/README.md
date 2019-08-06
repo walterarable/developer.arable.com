@@ -19,5 +19,5 @@ At the moment, we are working on **Python** and **R** client libraries. Please r
 ## I'm having trouble with my code, where can I go for help?
 You can reach out via [email](support@arable.com) and check our [Contribution Guide](http://linktocontributionguide.com)
 ## What are your terms of use?
-We ask you not to share our data publicly without a written authorization. Please refer to our [End User License Agreement](http://linktoeula.com)
+We ask you not to share our data publicly without a written authorization. Please refer to our [End User License Agreement](http://linktoeula.com).
 ## What is the difference between versions of the API?
